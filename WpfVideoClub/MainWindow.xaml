@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfVideoClub.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfVideoClub"
+        mc:Ignorable="d"
+        Title="Vide klub" WindowStartupLocation="CenterScreen" Height="216.939" Width="328.376">
+    <Grid>
+        <Button x:Name="Button1" Content="Clanovi" Margin="33,27,33,0" VerticalAlignment="Top" Height="28" Click="Button1_Click"/>
+        <Button x:Name="Button2" Height="28" Content="Filmovi" Margin="33,76,33,0"
+                VerticalAlignment="Top" Click="Button2_Click"/>
+        <Button x:Name="Button3"  Content="Iznajmljivanja" Margin="33,123,33,0" VerticalAlignment="Top" Height="28" Click="Button3_Click"/>
+
+    </Grid>
+</Window>
